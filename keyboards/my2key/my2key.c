@@ -13,7 +13,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-#include "ble_micro_pro.h"
+#include "my2key.h"
 #include <string.h>
 
 void keyboard_post_init_user()
