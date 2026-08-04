@@ -1,0 +1,34 @@
+{
+    "keyboard_name": "my2key",
+    "manufacturer": "My2Key",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x6060",
+        "device_version": "1.0.0"
+    },
+    "processor": "nrf52840",
+    "development_board": "promicro_nrf52840",
+    "matrix_pins": {
+        "rows": ["P1.09"],
+        "cols": ["P0.07", "P0.08"]
+    },
+    "diode_direction": "COL2ROW",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {
+                    "label": "K00",
+                    "matrix": [0, 0],
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "label": "K01",
+                    "matrix": [0, 1],
+                    "x": 1,
+                    "y": 0
+                }
+            ]
+        }
+    }
+}
