@@ -3,6 +3,8 @@ MCU_SERIES = NRF52840
 MCU_LDSCRIPT = nrf52840_ao
 MCU = cortex-m4
 
+CONVERT_TO = promicro_nrf52840
+
 # Build Options
 BOOTMAGIC_ENABLE = no
 MOUSEKEY_ENABLE = no
